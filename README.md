@@ -1,8 +1,8 @@
 # Interface-Lambda
 
-# 🎓 Conceito de Interface em Java [^1]
+# 🎓 Conceito de Interface em Java
 
-📘 O que é uma interface?
+📘 O que é uma interface? [^1]
 
 Em Java, uma interface é como um contrato que diz:
 
@@ -10,6 +10,7 @@ Em Java, uma interface é como um contrato que diz:
 Pense na interface como um molde ou esqueleto de comportamento. Ela não implementa lógica, apenas define o que as classes devem fazer.
 
 🧪 Exemplo real usado:
+
 ´´´´
 
 interface FiguraGeometrica {
@@ -40,6 +41,7 @@ Garante padronização do código.
 Permite usar polimorfismo: posso guardar qualquer figura geométrica numa variável do tipo FiguraGeometrica.
 Se o sistema crescer, é fácil adicionar novas figuras, mantendo o padrão.
 
+****************************************************************************************************************************************
 
 # 🧠 Conceito de Lambda em Java
 
@@ -65,6 +67,7 @@ interface ProdutoTributavel {
 }
 
 ´´´´
+
 O lambda (preco) -> preco * 0.01 substitui a criação de uma classe anônima e já define o comportamento diretamente.
 
 ✅ Vantagens:
@@ -74,6 +77,7 @@ O lambda (preco) -> preco * 0.01 substitui a criação de uma classe anônima e 
 ·      Código mais limpo e legível.
 
 ·      Ideal quando se quer apenas executar uma lógica rápida, como cálculos, filtros, ordenações etc.
+
 
 ![image](https://github.com/user-attachments/assets/34e68547-bec9-4eec-b7a6-215079cb79b3)
 
